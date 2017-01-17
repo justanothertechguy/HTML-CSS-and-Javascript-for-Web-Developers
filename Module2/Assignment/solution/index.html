@@ -9,38 +9,55 @@
   <title>Module2 Assignment JHU @ Coursera</title>
 </head>
 <body>
-  <h1>Our Menu</h1>
-  <div class="row">
-  <div class="container col-lg-4 col-md-6 col-sm-12">
-    <section>
-    <div id="chicken">
-      Chicken
-    </div>
-    <p>
-      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
-    </p>
-    </section>
-  </div>
-  <div class="container col-lg-4 col-md-6 col-sm-12">
-    <section>
-    <div id="beef">
-      Beef
-    </div>
-    <p>
-      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.  
-    </p>
-    </section>
-  </div>
-  <div class="container col-lg-4 col-md-12 col-sm-12">
-    <section>
-    <div id="sushi">
-      Sushi
-    </div>
-    <p>
-      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.  
-    </p>
-    </section>
-  </div>
-  </div>
+
+  <header>
+    <h1 class="heading--main u-text-center">Our Menu</h1>
+  </header>
+
+  <main role="main" class="container">
+    <div class="row">
+
+      <!-- Chicken -->
+      <div class="col--1-of-2@sm col--1-of-3@md">
+        <article class="box box--bordered">
+          <div class="box__ribbon box__ribbon--bordered box__ribbon--pink">
+            <h3 class="box__ribbon-text">Chicken</h3>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim magnam
+            nisi, praesentium repellendus sint saepe itaque quo maxime molestias
+            consequatur perspiciatis ducimus odio autem, error, velit molestiae
+            eveniet consectetur laborum.</p>
+        </article>
+      </div><!-- ./Chicken -->
+
+      <!-- Beef -->
+      <div class="col--1-of-2@sm col--1-of-3@md">
+        <article class="box box--bordered">
+          <div class="box__ribbon box__ribbon--bordered box__ribbon--red">
+            <h3 class="box__ribbon-text">Beef</h3>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim magnam
+            nisi, praesentium repellendus sint saepe itaque quo maxime molestias
+            consequatur perspiciatis ducimus odio autem, error, velit molestiae
+            eveniet consectetur laborum.</p>
+        </article>
+      </div><!-- ./Beef -->
+
+      <!-- Shushi -->
+      <div class="col--full@sm col--1-of-3@md">
+        <article class="box box--bordered">
+          <div class="box__ribbon box__ribbon--bordered box__ribbon--yellow">
+            <h3 class="box__ribbon-text">Shushi</h3>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim magnam
+            nisi, praesentium repellendus sint saepe itaque quo maxime molestias
+            consequatur perspiciatis ducimus odio autem, error, velit molestiae
+            eveniet consectetur laborum.</p>
+        </article>
+      </div><!-- ./Shushi -->
+
+    </div><!-- ./row -->
+  </main><!-- ./container -->
+
 </body>
 </html>
